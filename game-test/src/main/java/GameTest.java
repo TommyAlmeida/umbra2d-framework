@@ -1,24 +1,28 @@
+import com.lewk.core.core.io.DisplayConfig;
 import com.lewk.core.core.kernel.Game;
 
 public class GameTest extends Game {
 
     public GameTest() {
-        super(1280, 720, "Game Test");
+        super(DisplayConfig.builder()
+                .width(1280)
+                .height(720)
+                .build());
     }
 
     @Override
-    public void onInit() {
-        System.out.println("Init");
+    public void onCreate() {
+
     }
 
     @Override
-    public void onUpdate(double deltatime) {
-        System.out.println("Updated: " + deltatime);
+    public void onRender(float delta) {
+
     }
 
     @Override
     public void onDispose() {
-        System.out.println("Disposed");
+
     }
 
     public static void main(String[] args) {

@@ -3,6 +3,7 @@ package com.lewk.core.graphics;
 public class Color {
 
     public static final Color RED = new Color(255, 0, 0, 1);
+    public static final Color BLACK = new Color(0, 0, 0, 1);
 
     private float r;
     private float g;
