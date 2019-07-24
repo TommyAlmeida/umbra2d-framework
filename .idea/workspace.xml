@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5572c3ae-b89e-40ab-bd4a-7606de8bd369" name="Default Changelist" comment="" />
+    <list default="true" id="5572c3ae-b89e-40ab-bd4a-7606de8bd369" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lewk/core/core/kernel/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lewk/core/core/kernel/Window.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/game-test/target/" />
@@ -19,9 +23,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game-test/src/main/java/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="96">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding>
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
                 <element signature="e#117#118#0" expanded="true" />
                 <element signature="e#159#160#0" expanded="true" />
                 <element signature="e#192#193#0" expanded="true" />
@@ -36,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lewk/core/core/kernel/UmbraEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
+            <state relative-caret-position="-1596">
               <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -56,15 +62,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lewk/core/core/kernel/Game.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lewk/core/core/kernel/Window.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+            <state relative-caret-position="384">
+              <caret line="42" column="86" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="86" />
               <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,6 +83,9 @@
         <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -123,10 +129,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lewk/core/core/Window.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lewk/core/utils/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lewk/core/core/kernel/IGameLogic.java" />
-        <option value="$PROJECT_DIR$/game-test/src/main/java/GameTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lewk/core/core/kernel/UmbraEngine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lewk/core/core/kernel/Window.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lewk/core/core/kernel/Game.java" />
+        <option value="$PROJECT_DIR$/game-test/src/main/java/GameTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lewk/core/core/kernel/Window.java" />
       </list>
     </option>
   </component>
@@ -143,6 +149,7 @@
     <option name="width" value="1120" />
     <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -226,15 +233,6 @@
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="kernel" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="lewk-unknown" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lewk-unknown" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -244,6 +242,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/RocketMC/projects" />
@@ -324,18 +323,18 @@
       <workItem from="1563506975001" duration="4128000" />
       <workItem from="1563609790634" duration="1048000" />
       <workItem from="1563915008276" duration="462000" />
-      <workItem from="1563922637141" duration="9092000" />
+      <workItem from="1563922637141" duration="9244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19500000" />
+    <option name="totallyTimeSpent" value="19652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -588,16 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lewk/core/utils/ImageLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lewk/core/utils/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -612,9 +601,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lewk/core/core/kernel/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lewk/core/utils/ImageLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1268">
+          <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game-test/src/main/java/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lewk/core/core/kernel/UmbraEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
+        <state relative-caret-position="-1596">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -634,56 +663,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lewk/core/core/kernel/Window.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-298">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="384">
+          <caret line="42" column="86" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
-            <element signature="e#1731#1732#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1801#1802#0" expanded="true" />
-            <element signature="e#1842#1843#0" expanded="true" />
-            <element signature="e#1894#1895#0" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
-            <element signature="e#2144#2145#0" expanded="true" />
-            <element signature="e#2183#2184#0" expanded="true" />
-            <element signature="e#2217#2218#0" expanded="true" />
-            <element signature="e#2247#2248#0" expanded="true" />
-            <element signature="e#2276#2277#0" expanded="true" />
-            <element signature="e#2317#2318#0" expanded="true" />
-            <element signature="e#2353#2354#0" expanded="true" />
-            <element signature="e#2384#2385#0" expanded="true" />
-            <element signature="e#2413#2414#0" expanded="true" />
-            <element signature="e#2455#2456#0" expanded="true" />
-            <element signature="e#2491#2492#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game-test/src/main/java/GameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lewk/core/core/kernel/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
           </folding>
         </state>
       </provider>
