@@ -18,17 +18,14 @@ public class Color {
     }
 
     private Color() {
-        r = 0;
-        b = 0;
-        g = 0;
-        alpha = 1;
+        this(0, 0, 0, 1);
     }
 
-    public static Color empty(){
+    public static Color empty() {
         return new Color();
     }
 
-    public static Color of(float r, float g, float b, float alpha){
+    public static Color of(float r, float g, float b, float alpha) {
         return new Color(r, g, b, alpha);
     }
 

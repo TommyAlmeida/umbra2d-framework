@@ -9,6 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <modules>
+        <module>game-test</module>
+    </modules>
+
     <properties>
         <lwjgl.version>3.2.2</lwjgl.version>
         <lwjgl.natives>natives-windows</lwjgl.natives>
